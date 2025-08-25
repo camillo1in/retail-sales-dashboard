@@ -92,3 +92,18 @@ Analyze sales and profitability, and present KPIs in Power BI.
 | 2017-10   | 77,776.92     | 9,275.28       |
 | 2017-11   | 118,447.83    | 9,690.10       |
 | 2017-12   | 83,829.32     | 8,483.35       |
+
+## KPIs
+
+- **Revenue (Sales):** Sum of `Sales` over the selected period/level.
+- **Profit:** Sum of `Profit` over the selected period/level.
+- **Profit Margin (%):** `SUM(Profit) / SUM(Sales)`; undefined when sales = 0.
+- **Top Products (by Sales):** Rank products by `SUM(Sales)` (ties by `SUM(Profit)`).
+- **Bottom Products (by Margin):** Lowest `SUM(Profit) / SUM(Sales)` with `SUM(Sales) > 1000` to exclude trivial volume.
+- **Regional Performance:** `SUM(Sales)`, `SUM(Profit)`, and `Profit Margin` grouped by `Region`.
+- **Customer Segment Performance:** Same metrics grouped by `Segment`.
+
+- **Top 10 Products by Sales:** [`sql/1_top_10_products_by_sales.sql`](sql/1_top_10_products_by_sales.sql)
+- **Bottom 10 by Profit Margin:** [`sql/2_bottom_10_products_by_margin.sql`](sql/2_bottom_10_products_by_margin.sql)
+- **Sales by Region:** [`sql/3_sales_by_region.sql`](sql/3_sales_by_region.sql)
+- **Sales by Segment:** [`sql/4_sales_by_segment.sql`](sql/4_sales_by_segment.sql)
