@@ -107,3 +107,9 @@ Analyze sales and profitability, and present KPIs in Power BI.
 - **Bottom 10 by Profit Margin:** [`sql/2_bottom_10_products_by_margin.sql`](sql/2_bottom_10_products_by_margin.sql)
 - **Sales by Region:** [`sql/3_sales_by_region.sql`](sql/3_sales_by_region.sql)
 - **Sales by Segment:** [`sql/4_sales_by_segment.sql`](sql/4_sales_by_segment.sql)
+
+## Day 4 – Power BI Executive Overview
+- Added KPI cards for **Total Sales**, **Total Profit**, and **Margin %**.
+- Built line chart showing **Sales & Profit trend over time**.
+- Added **date slicer (Between)** for interactive filtering.
+- Page layout: clean executive snapshot.
