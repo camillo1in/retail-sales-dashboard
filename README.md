@@ -73,10 +73,16 @@ Analyze sales and profitability, and present KPIs in Power BI.
 - Added **slicers for Category and Sub-Category** for interactive filtering.  
 - Page layout: focused on product-level analysis.  
 
+## Day 6 – Power BI Regions & Customers
+- Built **Filled Map** showing **Sales by State**.  
+- Built **Donut Chart** showing **Sales by Customer Segment**.  
+- Added **Region slicer** for Central, East, South, and West.  
+- Page layout: regional and customer insights at a glance.  
+
 ---
 
 ## Files in Repository
 - `/data`: Dataset(s).  
 - `/sql`: SQL queries used for KPI definitions.  
-- `/powerbi`: Power BI `.pbix` dashboard file.  
+- `/pbix`: Power BI `.pbix` dashboard files.  
 - `README.md`: Documentation (this file).  
